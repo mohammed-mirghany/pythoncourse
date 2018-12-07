@@ -14,5 +14,5 @@ sql = "INSERT INTO students (name) VALUES ('Nafisa')"
 mycursor.execute(sql)
 
 mydb.commit()
-
+print(test)
 print(mycursor.rowcount, "record inserted.")
